@@ -136,9 +136,13 @@ img{
 /* Title h1 */
 .main-screen{
     background-color: #2E2F42;
-    /* max-width: 1440px; */
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-bg.jpg);;
+    max-width: 1440px; 
     height: 600px;
     padding: 188px 0;
+    margin: 0 auto;
 }
 .title-style{
     font-size: 56px;
@@ -196,6 +200,16 @@ img{
 }
 .benefit-item{
     width: calc((100% - 72px) / 4);
+}
+
+.benefit-block{
+    background: #F4F4FD;
+    border-radius: 4px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 
@@ -267,6 +281,7 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     padding: 0px;
+    margin-bottom: 8px;
 }
 
 
@@ -289,6 +304,34 @@ img{
 .member-card{
     width: calc((100% - 72px) / 4);
 
+}
+
+.social-icons-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    fill: #F4F4FD;
+    margin: 12px;
+}
+
+.ellipse{
+    background: #4D5AE5;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse:hover, .ellipse:focus{
+    background: #31D0AA;
+}
+
+.social-card-icon{
+    display: flex;
+    margin: 0 auto;
 }
 
 .filter-button-style{
