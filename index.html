@@ -29,10 +29,10 @@
                         <a class="list-style link current" href="./index.html">Studio</a>
                     </li>
                     <li>
-                        <a class="list-style link" href="./portfolio.html">Portfolio</a>
+                        <a class="list-style link " href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a class="list-style link" href="">Contacts</a>
+                        <a class="list-style link " href="">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
                         <a class="contact-link link " href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a class="contact-link link " href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
@@ -58,7 +58,7 @@
         <section class="main-screen">
             <div class="container">
                 <h1 class="title-style">Effective Solutions for Your Business</h1>
-                <button class="order-button" type="button">Order Service</button>
+                <button class="order-button " type="button" >Order Service</button>
             </div>
         </section>
 
@@ -145,8 +145,8 @@
                 <h2 class="team-style">Our Team</h2>
                     <ul class="team-item list">
                         <li class="member-card">
+                            <img src="./images/team/img1.jpg" alt="Team member 1" width="264" height="260">
                             <div class="card-content">
-                                <img src="./images/team/img1.jpg" alt="Team member 1" width="264" height="260">
                                 <h3 class="title-card">Mark Guerrero</h3>
                                 <p class="position-card">Product Designer</p>
                                 <div>
@@ -378,6 +378,16 @@
             </ul>
         </div>
     </footer>
-<script src="./js/modal.js"></script>
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
