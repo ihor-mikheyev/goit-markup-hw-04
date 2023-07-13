@@ -430,10 +430,13 @@ img{
     margin-top: 0;
     margin-bottom: 72px;
 }
+.customer-root{
+    padding: 120px 0;
+}
 
 .customer-block{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     height: 88px;
     width: calc((100% - 24px*5)/6);
@@ -443,8 +446,25 @@ img{
 .customers-rect{
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    /* width: calc((100% - 24px * 5) /6); */
+    width: calc((100% - 120px)/6);
     
+}
+
+.customer-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #8E8F99;
+}
+
+.customer-link:hover, .customer-link:focus{
+    background-color: #404BBF;
 }
 
 .customer-item{
