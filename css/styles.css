@@ -335,7 +335,7 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    gap: 24px;
     fill: #F4F4FD;
     margin: 12px;
 }
