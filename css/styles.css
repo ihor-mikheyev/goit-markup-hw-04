@@ -557,6 +557,22 @@ img{
     padding: 0;
 }
 
+.footer-social-link{
+    background: #4D5AE5;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-link:hover, 
+.footer-social-link:focus{
+    background-color: #31d0aa;
+}
+
+
 .social-icons-list{
     display: flex;
     gap: 16px;
