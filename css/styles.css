@@ -445,7 +445,7 @@ img{
 .customers-rect{
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    /* width: calc((100% - 120px)/6); */
+    width: calc((100% - 120px)/6);
     
 }
 
@@ -463,16 +463,14 @@ img{
 }
 
 .customer-link:hover, .customer-link:focus{
-    background-color: #404BBF;
+    border-color: #404bbf;
+    color: #404bbf
 }
 
 .customer-item{
     fill: #8E8F99;
-    width: 104px; 
-    height: 56px;
     display: flex;
     align-items: center;
-    
 }
 
 
