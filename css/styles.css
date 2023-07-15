@@ -523,13 +523,15 @@ img{
 .footer-block{
     display: flex;
     align-items: baseline;
+    
 }
 
 .footer-logo-text{
-    margin-right: 120px;
     margin-left: 156px;
     padding: 0;
+    margin-right: 120px;
 }
+
 .footer-accent-color{
     color: #f4f4fd;
 }
