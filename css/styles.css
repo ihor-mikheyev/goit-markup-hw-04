@@ -521,11 +521,15 @@ img{
 }
 
 .footer-block{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-logo-text{
     margin-right: 120px;
     margin-left: 156px;
     padding: 0;
 }
-
 .footer-accent-color{
     color: #f4f4fd;
 }
@@ -562,8 +566,8 @@ img{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
     color: #FFFFFF;
     margin-bottom: 16px;
 }
