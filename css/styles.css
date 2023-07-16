@@ -528,7 +528,6 @@ img{
 }
 
 .footer-logo-text{
-    padding: 0;
     margin-right: 120px;
 }
 
@@ -595,41 +594,63 @@ img{
 .backdrop {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: #2e2f423f;
+    background-color: rgba(46, 47, 66, 0.4);
     /* display: flex;
-  align-items: center;
-  justify-content: center; */
-    transition: opacity 300ms linear, visibility 300ms linear;
-}
-
-.modal {
-    width: 408px;
-    min-height: 584;
-    background-color: #fafafa;
-    border-radius: 4px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scaleX(1);
-    transition: transform 300ms linear;
-    margin: auto;
+    align-items: center;
+    justify-content: center; */
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scaleX(5);
 }
 
-.modal-close-btn {
-    border: none;
-    background: transparent;
-    width: 28px;
-    height: 28px;
+.modal {
+    width: 408px;
+    min-height: 584px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: auto;
+}
+
+
+.modal-close-btn {
+    position: absolute;
+    background-color: #e7e9fc;
+    width: 24px;
+    height: 24px;
     top: 24px;
     right: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus{
+    background-color: #404bbf;
+}
+
+.modal-icon{
+    
 }
 
 .is-hidden {
