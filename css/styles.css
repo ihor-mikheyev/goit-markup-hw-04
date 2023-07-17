@@ -341,7 +341,6 @@ img{
     justify-content: center;
     gap: 24px;
     fill: #F4F4FD;
-    margin: 12px;
 }
 
 .ellipse{
@@ -576,7 +575,7 @@ img{
 .footer-block{
     display: flex;
     align-items: baseline;
-    margin-left: 156px;
+    margin-left: 141px;
     
 }
 
@@ -591,6 +590,7 @@ img{
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
+    font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
