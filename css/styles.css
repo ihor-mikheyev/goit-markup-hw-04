@@ -344,17 +344,14 @@ img{
 }
 
 .ellipse{
-    background: #4D5AE5;
     height: 40px;
     width: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .ellipse:hover, .ellipse:focus{
     background: #31D0AA;
+    border-radius: 50%;
 }
 
 .social-link{
@@ -565,17 +562,13 @@ img{
 }
 /*  !!!! FOOTER !!!! */
 .footer {
-    color: #F4F4FD;
     background-color: #2E2F42;
     padding: 100px 0; 
-    display: flex;
-    align-items: baseline;
 }
 
 .footer-block{
     display: flex;
     align-items: baseline;
-    margin-left: 141px;
     
 }
 
@@ -602,6 +595,7 @@ img{
 
 .footer-text{
     line-height: 1.5;
+    color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
